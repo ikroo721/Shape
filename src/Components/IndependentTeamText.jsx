@@ -17,7 +17,7 @@ const  IndependentTeamText = () => {
     </div>
     <div className='xl:w-[70%] lg:w-[70%] slg:w-[70%] lmd:w-[70%] sm:w-[85%] w-full xsm:w-[100%]  h-full xl:px-10 lg:px-10 slg:px-10 lmd:px-5 px-0  flex  flex-col gap-10 justify-between'>
         <h3 className='xl:text-[3vw] xsm:text-[5vw] text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[4vw] leading-none'><span className='xl:inline-block lg:inline-block slg:inline-block lmd:inline-block hidden'>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span> An independent web design and branding agency in Manchester set up in 2010 who care, build relationships, have industry experience, and win awards.</h3>
-        <div className='flex gap-2'>
+        <div className='flex gap-2 flex-wrap '>
         <ButtonWithCircle text={"About the Shape"} color={"#D0FF71"}></ButtonWithCircle>
             <ButtonWithCircle text={"Meet the team"}></ButtonWithCircle>
         </div>
