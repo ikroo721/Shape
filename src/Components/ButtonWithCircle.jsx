@@ -15,7 +15,7 @@ const ButtonWithCircle = ({ text, color, textColor }) => {
     >
       <motion.button
         style={{ backgroundColor: color }}
-        className="xl:px-3 lg:px-3 slg:px-3 h-8 flex items-center justify-center lmd:px-3 md:px-3 sm:px-3 xsm:px-2 text-sm xsm:text-lg px-[6px] py-1 xl:py-1 rounded-full"
+        className="xl:px-3 lg:px-3 slg:px-3 h-8 text-nowrap flex items-center justify-center lmd:px-3 md:px-3 sm:px-3 xsm:px-2 text-sm xsm:text-lg px-[6px] py-1 xl:py-1 rounded-full"
         variants={{
           rest: { x: 0 },
           hover: { x: -10 }, 
