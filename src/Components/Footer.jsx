@@ -9,7 +9,7 @@ const Footer = () => {
  
   return (
     <footer className='min-h-screen w-full sxl:px-10 lg:px-6 px-4 sm:px-5 md:px-4   py-10 '>
-<div className='md:h-[95vh] h-[110vh] w-full bg-[#010202] relative rounded-[1.4rem] rounded-t-none overflow-hidden'>
+<div className='md:h-[95vh] h-[110vh] w-full bg-[#010202] relative rounded-[1.4rem] rounded-tl-none overflow-hidden'>
 <FooterLeftIcons/>
 <FooterTopRightText/>
 <FooterTop/>
