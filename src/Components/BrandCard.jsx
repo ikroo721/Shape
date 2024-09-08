@@ -25,7 +25,7 @@ const BrandCard = ({item,setHoverElem,hoverElem}) => {
             const isLg = window.innerWidth >= 1024;
             setIsLargeScreen(isLg);
             if (!isLg) {
-                controls.start({ width: "12vw" });
+                controls.start({ width: "20vw" });
             }
             else{
                 controls.start({ width: "0vw" });
@@ -46,7 +46,7 @@ const BrandCard = ({item,setHoverElem,hoverElem}) => {
     <motion.div
       animate={controls}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="slg:h-[8vw]  h-4/5 !w-[25vw] xsm:w-[15vw] md:w-[20vw] slg:w-[12vw] lg:w-0 md:rounded-3xl rounded-xl overflow-hidden"
+      className="slg:h-[8vw]  h-4/5 w-[25vw] xsm:w-[15vw] md:w-[20vw] slg:w-[12vw] lg:w-0 md:rounded-3xl rounded-xl overflow-hidden"
     >
 
         <img src={item.img} className='h-full w-full object-cover' alt={item.name} />
