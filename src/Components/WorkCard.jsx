@@ -57,7 +57,7 @@ const MouseEnterHandler = () => {
 <button className="px-2 py-1 rounded-full bg-gray-200">Website</button>
 <button className="px-2 py-1 rounded-full hidden xl:flex sxl:flex lg:flex slg:float-start lmd:flex md:flex sm:flex xsm:flex bg-gray-200">SEO</button>
     </motion.div>
- {index == 0 ? <video  className='h-full w-full object-cover' src={item.img} alt="A Man"></video> : <img src={item.img} className='h-full w-full object-cover' alt={item.head} ></img>}
+ {index == 0 ? <video  className='h-full w-full object-cover' src={item.img} alt="A Man" loading="lazy" preload='metadata' controls></video> : <img src={item.img} className='h-full w-full object-cover' alt={item.head} ></img>}
 
     </motion.div>
     <WorkCardText item={item}/>
