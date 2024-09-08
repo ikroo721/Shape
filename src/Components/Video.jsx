@@ -8,7 +8,7 @@ loop
 muted
 className="absolute inset-0 w-full h-full object-cover z-1"
 src={VideoFile}
-loading="lazy" preload='metadata' 
+loading="lazy"  
 ></video>
   )
 }
