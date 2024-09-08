@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import FooterTopAbout from "./FooterTopAbout";
 import FooterTopGoogleReview from "./FooterTopGoogleReview";

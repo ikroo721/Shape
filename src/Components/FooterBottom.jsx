@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import Anchor from './Anchor'
 import FooterBottomText from './FooterBottomText'
 
 const FooterBottom = () => {
