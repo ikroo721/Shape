@@ -36,7 +36,7 @@ const BrandSlider = () => {
   return (
     <div className='h-[20vh] xl:px-7 flex items-center '>
     <div className='h-[15vh] relative w-full bg-white'>
-        <div className='xl:block hidden absolute h-full w-8 left-0 blur-[10px] backdrop-blur-md z-[100]  bg-opacity-30 bg-slate-800'></div>
+        <div className='xl:block hidden absolute h-full w-8 left-0 blur-[5px] backdrop-blur-md z-[100]  bg-opacity-30 bg-white'></div>
     <Swiper
 spaceBetween={30}
 centeredSlides={true}

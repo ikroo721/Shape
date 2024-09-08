@@ -40,12 +40,12 @@ const BrandCard = ({item,setHoverElem,hoverElem}) => {
     onMouseEnter={SwitchHoverToTrue}
     onMouseLeave={SwitchHoverToFalse}
     className="slg:h-[12vw] md:h-[20vw] xsm:h-[15vw] h-[30vw] sm:h-[15vw] text-white 
-    lmd:h-[15vw]  w-full  flex items-center px-2  lmd:gap-0 gap-3 border-b-[2px]"
+    lmd:h-[15vw]  w-full  flex items-center px-2  lmd:gap-0 gap-3 border-b-[2px] bg-red-300"
   >
     <motion.div
       animate={controls}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="slg:h-[8vw] h-4/5 w-[25vw] xsm:w-[15vw] md:w-[20vw] slg:w-[12vw] lg:w-0 md:rounded-3xl rounded-xl overflow-hidden"
+      className="slg:h-[8vw]  h-4/5 !w-[25vw] xsm:w-[15vw] md:w-[20vw] slg:w-[12vw] lg:w-0 md:rounded-3xl rounded-xl overflow-hidden"
     >
 
         <img src={item.img} className='h-full w-full object-cover' alt={item.name} />
