@@ -16,7 +16,7 @@ const ThirdLineTestimonial = () => {
                 <path d="M51.9 0v1.9c-27.6 0-50 22.4-50 50H0V0h51.9z"></path>
               </svg>
               <div className="">
-                <h2 className="xl:text-[40px] sxl:text-[2.2rem] md:text-[1.7rem] lg:text-[2.2rem] slg:text-[1.6rem]  xsm:text-[1.3rem]  text-[1.1rem] lmd:text-[1.7rem] sm:text-[1.36rem] md:tracking-wide font-semibold">
+                <h2 className="xl:text-[40px] sxl:text-[2.2rem] md:text-[1.7rem] lg:text-[2.2rem] slg:text-[1.6rem]  xsm:text-[1.3rem] text-[20px] lmd:text-[1.7rem] sm:text-[1.36rem] md:tracking-wide font-semibold">
                   could have imagined{" "}
                   <span className="xl:inline-block hidden">&nbsp;&nbsp;</span>
                 </h2>

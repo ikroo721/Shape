@@ -20,7 +20,6 @@ const BrandsShowcaseContainer = () => {
     <div className=" flex items-center justify-center">
         <div className="slg:w-[88%] w-[95%]  flex lg:flex-row flex-col-reverse ">
           <div className="lg:w-[31.5%] ">
-            {/* <CEO/> */}
             <CoFounder/>
           </div>
           <div className="lg:w-[68.5%]  ">

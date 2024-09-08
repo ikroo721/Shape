@@ -25,7 +25,7 @@ const FourthLineTestimonial = () => {
                     backgroundSize:"cover"}}
                 className="lg:w-12 rounded-lg lg:h-12 slg:h-10 slg:w-10 xsm:h-8 xsm:w-8  h-7 w-7"></div>
                 <div className="flex flex-col tracking-tight leading-tight ">
-                  <h5 className="font-semibold">Hannah Wessel</h5>
+                  <h5 className="font-semibold text-md">Hannah Wessel</h5>
                   <p className="md:text-sm xsm:text-[13px] text-[12px] text-gray-400">
                     Co-Founder, Stoneletters
                   </p>
