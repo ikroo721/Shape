@@ -26,7 +26,7 @@ const Anchor = ({name,text,href,color}) => {
 style={{color:color && 'white'}}
 className='overflow-hidden   flex items-center min-h-8'>
 <motion.a
-href={href}
+href="#"
     onMouseEnter={handleEnter}
     onMouseLeave={handleLeave}
     className={`${text && "text-xl font-bold"} xl:text-[20px] lg:text-[20px] ${!color && 'slg:text-5xl' }  cursor-pointer  inline-block relative `}>{name}
