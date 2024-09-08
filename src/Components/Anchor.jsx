@@ -17,10 +17,9 @@ const Anchor = ({name,text,href,color}) => {
       control.start({
         x:"100%",
       }).then(() => {
-        control.set({ width: "0%", x: "0%" }); // Reset width and position for next hover
+        control.set({ width: "0%", x: "0%" }); 
       });
     }
-    // text-xl
   return (
 <div
 style={{color:color && 'white'}}
