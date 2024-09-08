@@ -5,7 +5,7 @@ import TopIdentityCard from "./TopIdentityCard";
 import BrandsShowcaseContainer from "./BrandsShowcaseContainer";
 const Brandidentity = () => {
   return (
-    <div className="w-full  min-h-screen rounded-[1.5rem] pt-[8vw] bg-black ">
+    <div className="w-full  min-h-screen rounded-t-[1.5rem] pt-[8vw] bg-black ">
       <TopIdentityCard/>
       <BrandsShowcaseContainer/>
       <TestimonialCard/>

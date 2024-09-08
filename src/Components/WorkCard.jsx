@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { motion, useAnimation } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
+import WorkCardText from './WorkCardText';
 
 const WorkCard = ({index,item}) => {
     const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);  
@@ -41,10 +42,10 @@ const MouseEnterHandler = () => {
     <motion.div
     onMouseEnter={MouseEnterHandler}
    onMouseLeave={MouseLeaveHandler}
-    className="xl:h-[66vh] h-[35vh] sm:h-[54.8vh] xsm:h-[45vh] md:h-[30vh] lmd:h-[40vh] slg:h-[50vh] lg:h-[56vh] rounded-[2rem] sxl:h-[56vh] w-full xl:rounded-[1.4rem] lmd:rounded-[1.4rem] sxl:rounded-[2rem] bg-red-500 overflow-hidden  relative ">
+    className="xl:h-[66vh] h-[35vh] sm:h-[54.8vh] xsm:h-[45vh] md:h-[30vh] lmd:h-[40vh] slg:h-[50vh] lg:h-[56vh] rounded-[2rem] sxl:h-[56vh] w-full xl:rounded-[1.4rem] lmd:rounded-[1.4rem] sxl:rounded-[2rem] bg-red-200 overflow-hidden  relative ">
     <motion.div
      animate={control}
-     transition={{duration:.5,ease:'easeInOut'}}
+     transition={{duration:.7,ease:'easeInOut'}}
     className='h-12 xl:w-64 gap-3 p-2  bg-white absolute right-0 slg:top-0 xl:-top-12 sxl:-top-12 lg:-top-12  !md:top-[0%]
     rounded-t-none
     rounded-bl-[1.4rem] flex   items-center justify-evenly ' >
@@ -56,21 +57,10 @@ const MouseEnterHandler = () => {
 <button className="px-2 py-1 rounded-full bg-gray-200">Website</button>
 <button className="px-2 py-1 rounded-full hidden xl:flex sxl:flex lg:flex slg:float-start lmd:flex md:flex sm:flex xsm:flex bg-gray-200">SEO</button>
     </motion.div>
- {index == 0 ? <video  className='h-full w-full object-cover' src={item.img}></video> : <img src={item.img} className='h-full w-full object-cover' alt={item.head} ></img>}
+ {index == 0 ? <video  className='h-full w-full object-cover' src={item.img} alt="A Man"></video> : <img src={item.img} className='h-full w-full object-cover' alt={item.head} ></img>}
 
     </motion.div>
-    <div className="flex flex-col gap-2 ">
-    <div className='flex gap-1 items-center text-lg'>
-    <div>
-<p>{item.year}</p>
- </div>
-    <div className='h-1 w-1 bg-black'></div>
-  <div>
-<p>{item.tag}</p>
- </div>
-    </div> 
-    <h3 className="xl:text-4xl sxl:text-4xl lg:text-3xl slg:text-3xl lmd:text-3xl md:text-2xl sm:gap-2 sm:text-2xl xsm:text-2xl flex-row xsm:flex-col text-xl font-semibold xl:w-full xl:flex-nowrap flex xl:gap-2 xl:flex-row   flex-wrap "><span>{item.head}</span></h3>
-    </div>
+    <WorkCardText item={item}/>
   </div>
   )
 }

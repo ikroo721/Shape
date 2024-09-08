@@ -8,7 +8,7 @@ const ButtonWithCircle = ({ text, color, textColor }) => {
   return (
     <motion.div
       className="flex items-center"
-      style={{ color: textColor && 'white' }}
+      style={{ color: textColor ? 'white' : 'black' }}
       whileHover="hover"
       initial="rest"
       animate="rest"

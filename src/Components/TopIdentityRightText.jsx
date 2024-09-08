@@ -17,7 +17,7 @@ const TopIdentityRightText = () => {
                 We are a digital marketing agency with expertise, and we’re on a
                 mission to help you take the next step in your business.
               </p>
-              <ButtonWithCircle text="See all services" color={"#D0FF71"} />
+              <ButtonWithCircle text="See all services" color={"#D0FF71"}  />
             </div>
           </div>
   )

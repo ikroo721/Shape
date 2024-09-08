@@ -16,7 +16,7 @@ const WorkBottomText = () => {
           <img
             src="/assets/Image/google-reviews-badge.webp"
             className="h-12"
-            alt=""
+            alt="Google Badge Review"
           />
         </div>
       </div>
