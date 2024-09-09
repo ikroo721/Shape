@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "/assets/Video/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4";
+import Img1 from "/assets/Video/ManWithOpenMouth.mp4";
 import Img2 from "/assets/Image/Right1.webp";
 import Img3 from "/assets/Image/workLeft2.webp";
 import Img4 from "/assets/Image/WorkRight2.webp";
