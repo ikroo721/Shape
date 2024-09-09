@@ -10,7 +10,7 @@ const FooterData = () => {
           {name:"Testimonials"},
           {name:"Processes"},
           {name:"FAQs"},
-          {name:"Branding FAQS"},
+          {name:"Branding"},
           {name:"Blog"},
         ],
       };
@@ -55,12 +55,12 @@ const FooterData = () => {
                 <path d="M0 64h512v80L256 320 0 144V64zm0 384V182.8l237.9 163.6 18.1 12.4 18.1-12.5L512 182.8V448H0z"></path>
               </svg>
             ),
-            name: "hello@madebyshape.co.uk",
+            name: "hello@madebyshape",
           },
           {
             icon: (
               <svg
-                className="w-7 h-7 fill-current text-white mt-1 | dark:text-grayDark-200 4xl:w-3.5 4xl:h-3.5"
+                className="w-4 h-4 fill-current text-white mt-1 | dark:text-grayDark-200 4xl:w-3.5 4xl:h-3.5"
                 width="12"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const FooterData = () => {
                 <path d="M192 512s192-208 192-320C384 86 298 0 192 0S0 86 0 192c0 112 192 320 192 320zm0-384a64 64 0 110 128 64 64 0 110-128z"></path>
               </svg>
             ),
-            name: "MadeByShape Gibfield Park Avenue Atherton Manchester M46 0SU",
+            name: "MadeByShape Gibfield",
           },
           {
             icon: (

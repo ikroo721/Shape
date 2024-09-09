@@ -34,7 +34,7 @@ href="#"
     initial={{width:"0%"}}
     transition={{duration:.2}}
     style={{backgroundColor: color ? 'white' : 'black'}}
-    className='xl:h-[1.4px] lg:h-[2px] h-1 slg:-bottom-[2px] left-0   absolute xl:-bottom-0 lg:-bottom-0'></motion.span>
+    className='xl:h-[1.4px] lg:h-[2px] h-[1px] bottom-0 slg:-bottom-[2px] left-0   absolute xl:-bottom-0 lg:-bottom-0'></motion.span>
     </motion.a>
 </div>
   )

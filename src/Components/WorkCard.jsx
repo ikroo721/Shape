@@ -46,7 +46,7 @@ const WorkCard = ({ index, item }) => {
       <motion.div
         onMouseEnter={MouseEnterHandler}
         onMouseLeave={MouseLeaveHandler}
-        className="xl:h-[66vh] h-[35vh] sm:h-[54.8vh] xsm:h-[45vh] md:h-[30vh] lmd:h-[40vh] slg:h-[50vh] lg:h-[56vh] rounded-[2rem] sxl:h-[56vh] w-full xl:rounded-[1.4rem] lmd:rounded-[1.4rem] sxl:rounded-[2rem]  overflow-hidden  relative "
+        className=" overflow-hidden  relative "
       >
         <motion.div
           animate={control}
@@ -90,8 +90,10 @@ const WorkCard = ({ index, item }) => {
         </motion.div>
         {index == 0 ? (
           <video
-            className="h-full w-full object-cover"
+            className="xl:h-[66vh] h-[35vh] sm:h-[54.8vh] xsm:h-[45vh] md:h-[30vh] lmd:h-[40vh] slg:h-[50vh] lg:h-[56vh] rounded-[2rem] sxl:h-[56vh] w-full xl:rounded-[1.4rem] lmd:rounded-[1.4rem] sxl:rounded-[2rem] "
             src={item.img}
+            muted
+            loop
             alt="A Man"
             loading="lazy"
             preload="metadata"
@@ -99,7 +101,7 @@ const WorkCard = ({ index, item }) => {
         ) : (
           <img
             src={item.img}
-            className="h-full w-full object-cover"
+            className="xl:h-[66vh] h-[35vh] sm:h-[54.8vh] xsm:h-[45vh] md:h-[30vh] lmd:h-[40vh] slg:h-[50vh] lg:h-[56vh] rounded-[2rem] sxl:h-[56vh] w-full xl:rounded-[1.4rem] lmd:rounded-[1.4rem] sxl:rounded-[2rem] "
             alt={item.head}
           ></img>
         )}

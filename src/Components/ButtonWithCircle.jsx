@@ -32,6 +32,7 @@ const ButtonWithCircle = ({ text, color, textColor }) => {
           rest: { x: 0 },
           hover: { x: 10 },
         }}
+        whileHover={{rotate:"45deg"}}
         transition={{ duration: 0.3 }}
       >
         <svg

@@ -10,7 +10,7 @@ const AboutLinks = ({Array,ExtraClass,}) => {
               <div>
                 {
                  Array.Arr.map((e,i)=>(   
-                  e.icon ?    <div key={i} className='flex items-center gap-2'>{e.icon} 
+                  e.icon ?    <div key={i} className='flex items-center text-nowrap gap-2'>{e.icon} 
                   <Anchor key={i} name={e.name} color="white" />
                   </div> : <Anchor key={i} name={e.name} color="white" />
                 ))

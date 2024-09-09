@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoFile from '/assets/Video/shape-showreel-2024_looping-v3.mp4'
+import VideoFile from '/assets/Video/ShowReel.mp4'
 const Video = () => {
   return (
     <video
